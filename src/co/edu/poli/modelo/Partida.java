@@ -99,7 +99,7 @@ public class Partida {
      */
     public void registrarPuntosParaJugadorActual(int puntos) {
         Jugador jugadorActual = listaDeJugadores.get(indiceJugadorActual);
-        jugadorActual.sumarPuntos(puntos);
+        jugadorActual.agregarPuntos(puntos);
     }
 
     /**
